@@ -1,0 +1,164 @@
+
+[Device]
+Family = lc4k;
+PartNumber = LC4032ZE-7TN48C;
+Package = 48TQFP;
+PartType = LC4032ZE;
+Speed = -7.5;
+Operating_condition = COM;
+Status = Production;
+EN_PinGLB = yes;
+EN_PinMacrocell = yes;
+Default_Device_IO_Types = LVCMOS33, -;
+
+[Revision]
+Parent = lc4k32e.lci;
+DATE = 07/25/2019;
+TIME = 23:34:25;
+Source_Format = Pure_VHDL;
+Synthesis = Synplify;
+
+[Ignore Assignments]
+
+[Clear Assignments]
+
+[Backannotate Assignments]
+
+[Global Constraints]
+Svf_erase_program_verify = On;
+Fitter_effort_level = Medium;
+
+[Location Assignments]
+layer = OFF;
+ra_17_ = Pin, 2, -, A, 5;
+ra_16_ = Pin, 9, -, A, 10;
+ra_15_ = Pin, 10, -, A, 11;
+ra_14_ = Pin, 3, -, A, 6;
+rwr_n = Pin, 8, -, A, 9;
+addr_13_ = Pin, 26, -, B, 5;
+addr_14_ = Pin, 27, -, B, 6;
+addr_15_ = Pin, 33, -, B, 10;
+data_0_ = Pin, 23, -, B, 3;
+data_1_ = Pin, 22, -, B, 2;
+data_2_ = Pin, 21, -, B, 1;
+data_3_ = Pin, 20, -, B, 0;
+data_4_ = Pin, 17, -, A, 15;
+prg_n = Pin, 34, -, B, 11;
+reset_n = Pin, 19, -, -, -;
+wr_n = Pin, 42, -, -, -;
+addr_12_ = Pin, 24, -, B, 4;
+data_5_ = Pin, 16, -, A, 14;
+data_6_ = Pin, 15, -, A, 13;
+data_7_ = Pin, 14, -, A, 12;
+
+[Group Assignments]
+layer = OFF;
+
+[Resource Reservations]
+layer = OFF;
+
+[Fitter Report Format]
+
+[Power]
+
+[Source Constraint Option]
+
+[Fast Bypass]
+
+[OSM Bypass]
+
+[Input Registers]
+
+[Netlist/Delay Format]
+NetList = VHDL;
+
+[IO Types]
+layer = OFF;
+rwr_n = -, PIN, 0, -;
+
+[Pullup]
+OFF = ra_17_, ra_16_, ra_15_, ra_14_, addr_13_, addr_14_, addr_15_, data_0_, 
+	data_1_, data_2_, data_3_, data_4_, prg_n, wr_n, addr_12_, data_5_, data_6_, 
+	data_7_, reset_n;
+UP = rwr_n;
+
+[Slewrate]
+Default = Slow;
+
+[Region]
+
+[Timing Constraints]
+layer = OFF;
+
+[HSI Attributes]
+
+[Input Delay]
+
+[opt global constraints list]
+
+[Explorer User Settings]
+
+[Pin attributes list]
+
+[global constraints list]
+
+[Global Constraints Process Update]
+
+[pin lock limitation]
+
+[LOCATION ASSIGNMENTS LIST]
+
+[RESOURCE RESERVATIONS LIST]
+
+[individual constraints list]
+
+[Attributes list setting]
+
+[Timing Analyzer]
+
+[PLL Assignments]
+
+[Dual Function Macrocell]
+
+[Explorer Results]
+
+[VHDL synplify constraints]
+Frequency = 4;
+
+[VHDL spectrum constraints]
+
+[verilog synplify constraints]
+
+[verilog spectrum constraints]
+
+[VHDL synplify constraints list]
+
+[VHDL spectrum constraints list]
+
+[verilog synplify constraints list]
+
+[verilog spectrum constraints list]
+
+[Power Guard]
+
+[ORP Bypass]
+
+[Register Powerup]
+
+[Constraint Version]
+version = 1.0;
+
+[ORP ASSIGNMENTS]
+layer = OFF;
+
+[Node attribute]
+layer = OFF;
+
+[SYMBOL/MODULE attribute]
+layer = OFF;
+
+[Nodal Constraints]
+layer = OFF;
+
+[OSCTIMER Assignments]
+layer = OFF;
