@@ -1,7 +1,7 @@
 JDF B
 // Created by Version 2.0 
-PROJECT gb_cart2m_a.syn
-DESIGN gb_cart2m_a Normal
+PROJECT gb_cart256k_a.syn
+DESIGN gb_cart256k_a Normal
 DEVKIT LC4032ZE-7TN48C
 ENTRY Pure VHDL
 MODULE ..\rtl\common.vhd

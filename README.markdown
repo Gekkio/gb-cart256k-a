@@ -1,9 +1,9 @@
-# GB-CART2M-A flash cart firmware
+# GB-CART256K-A flash cart firmware
 
 ## Building
 
 1. Install Lattice ispLEVER Classic 2.0
-2. Open `isplever/gb_cart2m_a.syn` with ispLEVER
+2. Open `isplever/gb_cart256k_a.syn` with ispLEVER
 3. Run "Fit Design" process
 
 ## Flashing
